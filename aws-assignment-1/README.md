@@ -57,13 +57,13 @@ User is not authorized to perform: ec2:RunInstances
 ## 📸 Screenshots
 
 ### IAM User & Permissions
-![IAM Screenshot](./screenshots/iam-user.png)
+![IAM Screenshot](./iam-user.png)
 
 ### S3 Access
-![S3 Screenshot](./screenshots/s3-access.png)
+![S3 Screenshot](./s3-access.png)
 
 ### EC2 Access Denied
-![EC2 Screenshot](./screenshots/ec2-denied.png)
+![EC2 Screenshot](./ec2-denied.png)
 
 ---
 
@@ -104,10 +104,9 @@ This assignment demonstrates Role-Based Access Control (RBAC) using IAM policies
 ## 📂 Project Structure
 aws-assignment-1/
 │── README.md
-│── screenshots/
-│ ├── iam-user.png
-│ ├── s3-access.png
-│ └── ec2-denied.png
+│── iam-user.png
+│── s3-access.png
+│── ec2-denied.png
 
 
 ---
