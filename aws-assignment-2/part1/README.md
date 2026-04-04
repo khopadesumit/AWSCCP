@@ -35,9 +35,9 @@ To launch an EC2 instance, connect using SSH, and execute basic Linux commands.
 ### Command Used (PowerShell):
 
 ```bash
-ssh -i .\Assignment.pem ec2-user@<your-public-ip>
+ssh -i .\Assignment.pem ec2-user@3.89.252.98
 
-[ec2-user@ip-xxx-xxx-xxx-xxx ~]$
+[ec2-user@ip-172-31-23-194 ~]$
 
 What happens if you lose your .pem file?
 You cannot connect to the EC2 instance via SSH
