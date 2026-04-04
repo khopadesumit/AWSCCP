@@ -58,3 +58,27 @@ ls
 
 
 <img width="833" height="529" alt="ssh-output png" src="https://github.com/user-attachments/assets/06a613ac-9170-4a70-914d-dff91b83ed2e" />
+
+## 🔹 Part 4: Stop vs Terminate EC2 Instance
+Steps Performed
+Stopped the EC2 instance successfully
+Started the instance again
+Terminated the instance
+
+Question 1: Does public IP change after stop/start?
+
+Yes, the public IP changes after stopping and starting the instance. This is because AWS assigns a new public IP unless an Elastic IP is used.
+
+Question 2: What happens after termination?
+
+After termination:
+The instance is permanently deleted
+All associated data is lost
+The instance cannot be recovered
+Billing for the instance stops
+
+
+Conclusion
+Successfully understood lifecycle of EC2 instance
+Learned difference between Stop and Terminate
+Observed behavior of public IP and instance deletion
